@@ -1,5 +1,14 @@
-# Feature Selection 
+# Overarching Assignment Goals:
 
+* Merges the training and the test sets to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement.
+* Uses descriptive activity names to name the activities in the data set
+* Appropriately labels the data set with descriptive variable names.
+* Create an independent tidy data set with the average of each variable for each activity and each subject.
+
+### Specific Measurements of Interest for the Getting and Cleaning Data Final Project are on the mean and standard deviation.  See Experiment Information for background information and the complete set of measurements
+
+## Experiment Information 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -56,5 +65,3 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyAccJerkMean
 * tBodyGyroMean
 * tBodyGyroJerkMean
-
-The complete list of variables of each feature vector is available in 'features.txt'
